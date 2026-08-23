@@ -73,29 +73,3 @@ musicButton.addEventListener("click", function () {
 
 });
 
-
-/* =========================================
-   VIEW INVITATION BUTTON
-   ========================================= */
-
-const viewInvitationButton = document.querySelector(".hero-button");
-const detailsSection = document.getElementById("details");
-
-viewInvitationButton.addEventListener("click", function (event) {
-
-    event.preventDefault();
-
-    detailsSection.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-    });
-
-    music.play()
-        .then(function () {
-            musicButton.textContent = "♫ Music On";
-        })
-        .catch(function (error) {
-            console.log("Music requires user interaction:", error);
-        });
-
-});
