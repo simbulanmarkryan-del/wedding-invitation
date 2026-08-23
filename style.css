@@ -653,3 +653,22 @@ section {
 
     cursor: pointer;
 }
+#music-toggle {
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+    left: auto !important;
+    bottom: auto !important;
+
+    z-index: 999999 !important;
+
+    background: white !important;
+    color: black !important;
+
+    padding: 15px 25px !important;
+
+    border: 3px solid black !important;
+    border-radius: 30px !important;
+
+    cursor: pointer !important;
+}
