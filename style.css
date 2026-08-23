@@ -585,76 +585,9 @@ section {
    MUSIC BUTTON
    ========================================= */
 
-.music-button {
-    position: fixed;
-
-    top: 20px;
-    right: 20px;
-
-    z-index: 9999;
-
-    padding: 10px 18px;
-
-    border: 1px solid #4a4039;
-    border-radius: 25px;
-
-    background: rgba(255, 255, 255, 0.95);
-
-    color: #4a4039;
-
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 14px;
-
-    cursor: pointer;
-
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
-
-    transition: all 0.3s ease;
-}
-
-.music-button:hover {
-    background: #4a4039;
-    color: white;
-}
-
-
-/* Mobile */
-
-@media (max-width: 600px) {
-
-    .music-button {
-        top: 15px;
-        right: 15px;
-
-        padding: 9px 15px;
-
-        font-size: 13px;
-    }
-
-}
-/* FIXED MUSIC BUTTON */
-
 #music-toggle {
     position: fixed !important;
-    top: 20px !important;
-    right: 20px !important;
 
-    z-index: 99999 !important;
-
-    display: block !important;
-
-    padding: 10px 18px;
-
-    background: white;
-    color: #4a4039;
-
-    border: 1px solid #4a4039;
-    border-radius: 25px;
-
-    cursor: pointer;
-}
-#music-toggle {
-    position: fixed !important;
     top: 20px !important;
     right: 20px !important;
     left: auto !important;
@@ -662,13 +595,43 @@ section {
 
     z-index: 999999 !important;
 
-    background: white !important;
-    color: black !important;
+    display: block !important;
 
-    padding: 15px 25px !important;
+    padding: 12px 20px !important;
 
-    border: 3px solid black !important;
+    background: rgba(255, 255, 255, 0.96) !important;
+    color: #4a4039 !important;
+
+    border: 1px solid #4a4039 !important;
     border-radius: 30px !important;
 
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+
     cursor: pointer !important;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+
+    transition: all 0.3s ease;
+}
+
+#music-toggle:hover {
+    background: #4a4039 !important;
+    color: white !important;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    #music-toggle {
+        top: 15px !important;
+        right: 15px !important;
+
+        padding: 10px 16px !important;
+
+        font-size: 13px;
+    }
+
 }
