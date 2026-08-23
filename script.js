@@ -10,12 +10,10 @@ function updateCountdown() {
     const difference = weddingDate - now;
 
     if (difference <= 0) {
-
         document.getElementById("days").textContent = "0";
         document.getElementById("hours").textContent = "0";
         document.getElementById("minutes").textContent = "0";
         document.getElementById("seconds").textContent = "0";
-
         return;
     }
 
@@ -42,7 +40,6 @@ function updateCountdown() {
 }
 
 updateCountdown();
-
 setInterval(updateCountdown, 1000);
 
 
@@ -52,7 +49,6 @@ setInterval(updateCountdown, 1000);
 
 const music = document.getElementById("wedding-music");
 const musicButton = document.getElementById("music-toggle");
-const viewInvitationButton = document.querySelector(".hero-button");
 
 
 /* Music On / Off */
@@ -78,19 +74,6 @@ musicButton.addEventListener("click", function () {
 });
 
 
-/* View Invitation */
-
-viewInvitationButton.addEventListener("click", function () {
-
-    music.play()
-        .then(function () {
-            musicButton.textContent = "♫ Music On";
-        })
-        .catch(function (error) {
-            console.error("Music could not play:", error);
-        });
-
-});
 /* =========================================
    VIEW INVITATION BUTTON
    ========================================= */
