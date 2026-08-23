@@ -581,3 +581,54 @@ section {
     }
 
 }
+/* =========================================
+   MUSIC BUTTON
+   ========================================= */
+
+.music-button {
+    position: fixed;
+
+    top: 20px;
+    right: 20px;
+
+    z-index: 9999;
+
+    padding: 10px 18px;
+
+    border: 1px solid #4a4039;
+    border-radius: 25px;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    color: #4a4039;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+
+    transition: all 0.3s ease;
+}
+
+.music-button:hover {
+    background: #4a4039;
+    color: white;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .music-button {
+        top: 15px;
+        right: 15px;
+
+        padding: 9px 15px;
+
+        font-size: 13px;
+    }
+
+}
