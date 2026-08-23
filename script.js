@@ -52,6 +52,10 @@ setInterval(updateCountdown, 1000);
 
 const music = document.getElementById("wedding-music");
 const musicButton = document.getElementById("music-toggle");
+const viewInvitationButton = document.querySelector(".hero-button");
+
+
+/* Music On / Off */
 
 musicButton.addEventListener("click", function () {
 
@@ -59,22 +63,31 @@ musicButton.addEventListener("click", function () {
 
         music.play()
             .then(function () {
-
                 musicButton.textContent = "♫ Music On";
-
             })
             .catch(function (error) {
-
                 console.error("Music could not play:", error);
-
             });
 
     } else {
 
         music.pause();
-
         musicButton.textContent = "♫ Music Off";
-
     }
+
+});
+
+
+/* View Invitation */
+
+viewInvitationButton.addEventListener("click", function () {
+
+    music.play()
+        .then(function () {
+            musicButton.textContent = "♫ Music On";
+        })
+        .catch(function (error) {
+            console.error("Music could not play:", error);
+        });
 
 });
