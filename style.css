@@ -1,3 +1,10 @@
+:root {
+    --pink: #ff66c4;
+    --dark-pink: #d94b9f;
+    --cream: #fff8fc;
+    --text: #4a4039;
+    --white: #ffffff;
+}
 /* =========================================
    WEDDING INVITATION
    Main Stylesheet
@@ -20,8 +27,8 @@ html {
 
 body {
     font-family: Georgia, "Times New Roman", serif;
-    background: #f8f4ef;
-    color: #4a4039;
+    background: var(--cream);
+    color: var(--text);
     line-height: 1.7;
 }
 
@@ -60,16 +67,23 @@ p {
 .button {
     display: inline-block;
     padding: 13px 30px;
-    border: 1px solid #4a4039;
+
+    border: 1px solid var(--pink);
+    border-radius: 30px;
+
     text-decoration: none;
-    color: #4a4039;
+    color: var(--dark-pink);
+
+    background: rgba(255, 255, 255, 0.9);
+
     transition: all 0.3s ease;
     margin-top: 15px;
 }
 
 .button:hover {
-    background: #4a4039;
+    background: var(--pink);
     color: white;
+    transform: translateY(-2px);
 }
 
 
@@ -206,7 +220,7 @@ p {
    ========================================= */
 
 .countdown-section {
-    background: #eee7df;
+    background: #fff0f8;
 }
 
 .countdown-section h2 {
@@ -531,7 +545,7 @@ section {
    ========================================= */
 
 .photo-upload {
-    background: #eee7df;
+    background: #fff0f8;
 }
 
 .photo-upload h2 {
@@ -597,22 +611,28 @@ section {
 
     display: block !important;
 
-    padding: 12px 20px !important;
+    padding: 12px 22px !important;
 
-    background: rgba(255, 255, 255, 0.96) !important;
-    color: #4a4039 !important;
+    background: #ff66C4 !important;
+    color: white !important;
 
-    border: 1px solid #4a4039 !important;
+    border: 2px solid white !important;
     border-radius: 30px !important;
 
     font-family: Georgia, "Times New Roman", serif;
     font-size: 14px;
+    font-weight: bold;
 
     cursor: pointer !important;
 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.18);
 
     transition: all 0.3s ease;
+}
+
+#music-toggle:hover {
+    background: #d94b9f !important;
+    transform: translateY(-2px);
 }
 
 #music-toggle:hover {
