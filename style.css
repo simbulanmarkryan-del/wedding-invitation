@@ -675,15 +675,13 @@ section {
 /* Mobile */
 @media (max-width: 600px) {
 
-    .gallery-video {
-        width: 100%;
-        margin-top: 35px;
-    }
-
     .gallery-video iframe {
         width: 100% !important;
-        height: 650px !important;
+        height: 550px !important;
+        display: block !important;
+        margin: 0 auto !important;
     }
+
 }
 /* =========================================
    PINK WEDDING THEME
