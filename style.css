@@ -663,11 +663,11 @@ section {
 }
 
 .gallery-video iframe {
-    display: block;
     width: 100% !important;
-    height: 450px !important;
+    height: 500px !important;
+    display: block !important;
     margin: 0 auto !important;
-    border: 0;
+    border: none !important;
     border-radius: 12px;
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
 }
@@ -682,7 +682,7 @@ section {
 
     .gallery-video iframe {
         width: 100% !important;
-        height: 450px !important;
+        height: 500px !important;
     }
 }
 /* =========================================
