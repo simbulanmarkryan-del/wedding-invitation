@@ -676,14 +676,14 @@ section {
 @media (max-width: 600px) {
 
     .gallery-video {
-        width: 100%;
-        max-width: 100%;
+        width: 90%;
+        max-width: 360px;
         margin: 30px auto 0;
     }
 
     .gallery-video iframe {
         width: 100% !important;
-        height: 500px !important;
+        height: 450px !important;
         display: block !important;
         margin: 0 auto !important;
         border: none !important;
