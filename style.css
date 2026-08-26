@@ -675,11 +675,19 @@ section {
 /* Mobile */
 @media (max-width: 600px) {
 
+    .gallery-video {
+        width: 100%;
+        max-width: 100%;
+        margin: 30px auto 0;
+    }
+
     .gallery-video iframe {
         width: 100% !important;
-        height: 550px !important;
+        height: 500px !important;
         display: block !important;
         margin: 0 auto !important;
+        border: none !important;
+        border-radius: 10px;
     }
 
 }
