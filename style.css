@@ -636,41 +636,36 @@ section {
 
 }
 /* =========================================
-   GALLERY VIDEO
+   CENTERED GALLERY VIDEO
    ========================================= */
 
 .gallery-video {
-    width: 100%;
+    width: 90%;
     max-width: 900px;
-    margin: 30px auto 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
-    background: #000;
+    margin: 30px auto 0 auto;
+    display: block;
+    text-align: center;
 }
 
 .gallery-video iframe {
     display: block;
     width: 100%;
     height: 500px;
-    border: none;
     margin: 0 auto;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
 }
 
 
-/* =========================================
-   MOBILE
-   ========================================= */
+/* MOBILE */
 
 @media (max-width: 600px) {
 
     .gallery-video {
-        width: 100%;
-        max-width: 100%;
-        margin: 25px auto 0;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .gallery-video iframe {
