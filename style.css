@@ -683,7 +683,7 @@ section {
 
     .gallery-video iframe {
         width: 100% !important;
-        height: 200px !important;
+        height: 100px !important;
         display: block !important;
         margin: 0 auto !important;
         border: none !important;
