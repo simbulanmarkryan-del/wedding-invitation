@@ -104,7 +104,7 @@ p {
     padding: 40px 20px;
     box-sizing: border-box;
 
-    background: #f8f4ef;
+    background: #fff0f8;
 }
 
 .save-the-date-image {
@@ -631,7 +631,7 @@ section {
 }
 
     #music-toggle:hover {
-    background: #d94b9f !important;
+    background: #ff66c4 !important;
     color: white !important;
     transform: translateY(-2px);
 }
@@ -703,4 +703,36 @@ section {
         height: 500px;
     }
 
+}
+/* =========================================
+   PINK WEDDING THEME
+   ========================================= */
+
+.hero {
+    background: #fff0f8;
+}
+
+.welcome h2,
+.countdown-section h2,
+.gallery h2,
+.timeline h2,
+.venue h2,
+.dress-code h2,
+.rsvp h2,
+.photo-upload h2 {
+    color: #d94b9f;
+}
+
+/* Music Button */
+
+#music-toggle {
+    background: #ff66c4 !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
+
+#music-toggle:hover {
+    background: #d94b9f !important;
+    color: white !important;
+    transform: translateY(-2px);
 }
