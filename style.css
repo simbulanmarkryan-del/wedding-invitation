@@ -664,7 +664,7 @@ section {
 
 .gallery-video iframe {
     width: 100% !important;
-    height: 500px !important;
+    height: 700px !important;
     display: block !important;
     margin: 0 auto !important;
     border: none !important;
@@ -682,7 +682,7 @@ section {
 
     .gallery-video iframe {
         width: 100% !important;
-        height: 500px !important;
+        height: 650px !important;
     }
 }
 /* =========================================
