@@ -630,14 +630,10 @@ section {
     transition: all 0.3s ease;
 }
 
-#music-toggle:hover {
+    #music-toggle:hover {
     background: #d94b9f !important;
-    transform: translateY(-2px);
-}
-
-#music-toggle:hover {
-    background: #4a4039 !important;
     color: white !important;
+    transform: translateY(-2px);
 }
 
 
