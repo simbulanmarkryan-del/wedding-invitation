@@ -652,12 +652,12 @@ section {
 
 }
 /* =========================================
-   GOOGLE DRIVE VIDEO
+   WEDDING VIDEO
    ========================================= */
 
 .gallery-video {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 50px auto 0 auto !important;
     padding: 0 !important;
 
@@ -665,23 +665,22 @@ section {
     justify-content: center !important;
     align-items: center !important;
 
-    text-align: center;
+    position: relative;
 }
 
+/* Google Drive player */
 .gallery-video iframe {
-    display: block !important;
-
     width: 100% !important;
-    max-width: 1000px !important;
+    height: 650px !important;
 
-    height: 560px !important;
+    display: block !important;
 
     margin: 0 auto !important;
 
     border: none !important;
-    border-radius: 10px;
+    border-radius: 12px;
 
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -698,7 +697,8 @@ section {
 
     .gallery-video iframe {
         width: 100% !important;
-        height: 500px !important;
+        height: 600px !important;
+        border-radius: 8px;
     }
 
 }
